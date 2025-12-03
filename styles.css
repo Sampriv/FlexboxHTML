@@ -1,0 +1,35 @@
+.section-container {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.subcontainer-text {
+  flex: 1;
+  padding: 1rem;
+  background: #df6161;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subcontainer-image {
+  flex: 1;
+  padding: 1rem;
+  background: #df6161;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-container h2 {
+  margin-top: 0;
+}
+
+.subcontainer-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
