@@ -4,6 +4,30 @@
   margin-bottom: 2rem;
 }
 
+.flex-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  background: #1f2937;
+  color: #f9fafb;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
+}
+
+.flex-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.flex-header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
 .subcontainer-text {
   flex: 1;
   padding: 1rem;
